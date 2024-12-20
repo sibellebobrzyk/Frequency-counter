@@ -1,2 +1,1 @@
-# Frequency-counter
-Developed an application using a microcontroller to measure the frequency of an external signal from 10 to 1 kHz with interrupts and display results via serial terminal.
+Developed an application that measured the frequency of an external signal in the range of 10 to 1 kHz. The external signal was handled via an external interrupt on pin PB0, with timing managed by TIM, preferably through an interrupt. The signaling/IHM was done through the serial port, displaying results on the terminal.
